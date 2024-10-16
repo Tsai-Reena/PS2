@@ -1,10 +1,5 @@
 # README
 
-**Group 04**
-* 112527005: 李岳峻
-* 112527008: 尤力民
-* 112527011: 蔡睿芸
-
 ## How to run our code?
 
 ### 1. Install the requirement packages with certain python version
@@ -27,7 +22,7 @@
    pip install langchain-community
    pip install huggingface_hub
    ```
-   
+
 ### 2. Create dataset for training & testing 
 **(Please make your source directory is under the folder `PS2`)**
    ```
@@ -40,19 +35,19 @@
    ```
    python test_run.py
    ```
-   
+
 ### 4. Recommendation
 
 + **Beverage recommendation**
     + Step:1 User name input for beverage recommendation 
-    (Please make your source directory is under the folder `PS2`)
+      (Please make your source directory is under the folder `PS2`)
       ```
       python create_user_data.py
       
       ##Then enter the user name you want to predict, it will generate the graph information
       ```
    + Step:2 Model prediction for beverage recommendation 
-   (Please make your source directory is under the folder `PS2`)
+     (Please make your source directory is under the folder `PS2`)
      ```
      python ps2_testing.py
      
@@ -61,12 +56,10 @@
 
 + **Beverage Shop Recommendation**
     + Beverage Shop Recommendation 
-    (Please make your source directory is under the folder `PS2`)
+      (Please make your source directory is under the folder `PS2`)
       ```
       python recommand.py
       
       ## it will read the user name as input and will generate the recommendation output for specific user.
       ```
 
-## Final Version
-20240612 https://drive.google.com/drive/folders/11Dv4itrVBEubCe8MA7P-BUg73Blj00Gi?usp=sharing updated by Limit
